@@ -6,6 +6,7 @@
 
 a {
     text-decoration-line: blink;
+    color: black;
 }
 
 a:visited {
