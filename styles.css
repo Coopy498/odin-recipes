@@ -1,0 +1,86 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: brown;
+    text-align: center;
+}
+
+a {
+    text-decoration-line: blink;
+}
+
+a:visited {
+    color: black;
+}
+
+.index-body {
+    background-color: darkgrey;
+}
+
+.pizza-body {
+    background-color: coral;
+
+}
+
+.spaghetti-body {
+    background-color: darkgoldenrod;
+}
+
+.choco-body {
+    background-color: lightblue;
+}
+
+.my-list {
+    font-size: 24px;
+    display: inline-block;
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-items.list-items:hover {
+    transition: .10s;
+    opacity: 40%;
+    background-color: cadetblue;
+    border: 2px solid lightcyan;
+    border-radius: 4em;
+}
+
+/* Back home button */
+.back-home {
+    cursor: pointer;
+    color: black;
+    width: 8em;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: darkgrey;
+    position: relative;
+}
+
+.back-home:hover {
+    background-color: bisque;
+}
+
+h3, .items, .paragraph {
+    text-align: left;
+    font-size: 14px;
+}
+
+.list-items {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 4px solid black;
+    max-width: 100%;
+    height: auto;
+}
